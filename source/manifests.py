@@ -3,9 +3,11 @@ import sys, os, json
 sys.path.insert(0, os.path.dirname(__file__))
 from spec import B, GROUPS
 
-ORDER = ["delivery", "resolution", "hdr", "picture", "audio", "channels", "source", "language",
+ORDER = ["delivery", "resolution", "hdr", "picture", "audio", "channels", "source",
          "codec", "subtitles", "edition", "service", "flags"]
 LIVE = ["live", "container"]
+LAST = ["language"]  # many possible languages, so they go at the end of the row
+LANG_FIRST = ["line-audio", "dual", "multi", "original", "dubbed"]
 TIER_RANK = {"hero": 0, "warn": 1, "core": 2, "info": 3}
 GNAME = dict(GROUPS)
 STYLES = {"obsidian": "Obsidian", "prism": "Prism", "neon": "Neon", "cinema": "Cinema", "liquid": "Liquid",
@@ -15,7 +17,9 @@ def fname(bid): return bid.replace(".", "_")
 
 def build(style, base, ext, groups, enable):
     items = sorted([x for x in B if x["group"] in groups],
-                   key=lambda x: (groups.index(x["group"]), B.index(x)))
+                   key=lambda x: (groups.index(x["group"]),
+                                  0 if x["id"] in LANG_FIRST else 1,
+                                  LANG_FIRST.index(x["id"]) if x["id"] in LANG_FIRST else B.index(x)))
     return {
         "groups": [{"id": g, "name": GNAME[g], "color": "#00000000", "borderColor": "#00000000", "isExpanded": True} for g in groups],
         "filters": [{
@@ -33,7 +37,7 @@ if __name__ == "__main__":
     out = sys.argv[3] if len(sys.argv) > 3 else "kit"
     os.makedirs(out, exist_ok=True)
     for s, title in STYLES.items():
-        for suffix, groups, rule in [("", ORDER + LIVE, everything)]:
+        for suffix, groups, rule in [("", ORDER + LIVE + LAST, everything)]:
             m = build(s, base, ext, groups, rule)
             p = os.path.join(out, f"{s}{suffix}.json")
             json.dump(m, open(p, "w"), indent=1, ensure_ascii=False)

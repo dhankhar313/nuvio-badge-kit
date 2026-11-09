@@ -10,6 +10,8 @@
 
 To switch styles later, paste the new link and restart Nuvio.
 
+Language badges always come last in the row, so quality badges stay up front.
+
 ## Styles
 
 ### Obsidian
