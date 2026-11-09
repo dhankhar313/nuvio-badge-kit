@@ -8,6 +8,15 @@ ORDER = ["delivery", "resolution", "hdr", "picture", "audio", "channels", "sourc
 LIVE = ["live", "container"]
 LAST = ["language"]  # many possible languages, so they go at the end of the row
 LANG_FIRST = ["line-audio", "dual", "multi", "original", "dubbed"]
+LANG_LEAD = ["english", "hindi"]  # first among the languages themselves
+
+def lang_rank(x):
+    """Order inside the language block: audio-track badges, English, Hindi, international
+    languages, then the other Indian languages (there are many, so they go last)."""
+    if x["id"] in LANG_FIRST: return (0, LANG_FIRST.index(x["id"]))
+    if x["id"] in LANG_LEAD: return (1, LANG_LEAD.index(x["id"]))
+    if x.get("flag") == "in": return (3, B.index(x))
+    return (2, B.index(x))
 TIER_RANK = {"hero": 0, "warn": 1, "core": 2, "info": 3}
 GNAME = dict(GROUPS)
 STYLES = {"obsidian": "Obsidian", "prism": "Prism", "neon": "Neon", "cinema": "Cinema", "liquid": "Liquid",
@@ -23,9 +32,7 @@ def fname(x): return x["id"].replace(".", "_") + ("-flag" if x.get("flag") else 
 
 def build(style, base, ext, groups, enable):
     items = sorted([x for x in B if x["group"] in groups],
-                   key=lambda x: (groups.index(x["group"]),
-                                  0 if x["id"] in LANG_FIRST else 1,
-                                  LANG_FIRST.index(x["id"]) if x["id"] in LANG_FIRST else B.index(x)))
+                   key=lambda x: (groups.index(x["group"]),) + (lang_rank(x) if x["group"] == "language" else (0, B.index(x))))
     return {
         "groups": [{"id": g, "name": GNAME[g], "color": "#00000000", "borderColor": "#00000000", "isExpanded": True} for g in groups],
         "filters": [{
