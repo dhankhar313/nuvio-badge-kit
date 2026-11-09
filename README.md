@@ -1,6 +1,6 @@
 # Nuvio Badge Kit
 
-261 stream badges in 5 styles for Nuvio: quality, HDR, audio, 83 languages, streaming services and Live TV, plus red warnings for CAM rips and bad copies.
+261 stream badges in 10 styles for Nuvio: quality, HDR, audio, 83 languages, streaming services and Live TV, plus red warnings for CAM rips and bad copies.
 
 ## How to install
 
@@ -50,6 +50,46 @@ https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/cinema.js
 
 ```
 https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/liquid.json
+```
+
+### Pixel
+
+![Pixel](previews/preview-pixel.jpg)
+
+```
+https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/pixel.json
+```
+
+### VHS
+
+![VHS](previews/preview-vhs.jpg)
+
+```
+https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/vhs.json
+```
+
+### Keycap
+
+![Keycap](previews/preview-keycap.jpg)
+
+```
+https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/keycap.json
+```
+
+### Enamel
+
+![Enamel](previews/preview-enamel.jpg)
+
+```
+https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/enamel.json
+```
+
+### Glitch
+
+![Glitch](previews/preview-glitch.jpg)
+
+```
+https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/glitch.json
 ```
 
 ## Every badge

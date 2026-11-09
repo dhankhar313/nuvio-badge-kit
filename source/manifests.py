@@ -8,7 +8,8 @@ ORDER = ["delivery", "resolution", "hdr", "picture", "audio", "channels", "sourc
 LIVE = ["live", "container"]
 TIER_RANK = {"hero": 0, "warn": 1, "core": 2, "info": 3}
 GNAME = dict(GROUPS)
-STYLES = {"obsidian": "Obsidian", "prism": "Prism", "neon": "Neon", "cinema": "Cinema", "liquid": "Liquid"}
+STYLES = {"obsidian": "Obsidian", "prism": "Prism", "neon": "Neon", "cinema": "Cinema", "liquid": "Liquid",
+          "pixel": "Pixel", "vhs": "VHS", "keycap": "Keycap", "enamel": "Enamel", "glitch": "Glitch"}
 
 def fname(bid): return bid.replace(".", "_")
 

@@ -28,7 +28,7 @@ FONTS = "".join(f'<link rel="stylesheet" href="file://{NM}/{p}">' for p in [
  "@fontsource/noto-sans-devanagari/700.css", "@fontsource/noto-sans-tamil/700.css",
  "@fontsource/noto-sans-telugu/700.css", "@fontsource/noto-sans-malayalam/700.css",
  "@fontsource/noto-sans-kannada/700.css", "@fontsource/noto-sans-bengali/700.css",
- "@fontsource/noto-sans-jp/700.css", "@fontsource/noto-sans-kr/700.css", "@fontsource/noto-sans/700.css",
+ "@fontsource/noto-sans-jp/700.css", "@fontsource/noto-sans-kr/700.css", "@fontsource/noto-sans/700.css", "@fontsource/silkscreen/400.css", "@fontsource/silkscreen/700.css", "@fontsource-variable/pixelify-sans/index.css", "@fontsource/bebas-neue/400.css", "@fontsource/oswald/500.css", "@fontsource/oswald/700.css", "@fontsource/jetbrains-mono/700.css", "@fontsource/jetbrains-mono/800.css",
  "@fontsource/noto-sans-arabic/700.css", "@fontsource/noto-sans-hebrew/700.css", "@fontsource/noto-sans-thai/700.css", "@fontsource/noto-sans-sc/700.css", "@fontsource/noto-sans-tc/700.css", "@fontsource/noto-sans-gurmukhi/700.css", "@fontsource/noto-sans-gujarati/700.css", "@fontsource/noto-sans-oriya/700.css", "@fontsource/noto-sans-sinhala/700.css", "@fontsource/noto-sans-georgian/700.css", "@fontsource/noto-sans-armenian/700.css", "@fontsource/noto-sans-khmer/700.css", "@fontsource/noto-sans-lao/700.css", "@fontsource/noto-sans-myanmar/700.css", "@fontsource/noto-sans-ethiopic/700.css"])
 
 FALLBACK = "'Noto Sans','Noto Sans Devanagari','Noto Sans Tamil','Noto Sans Telugu','Noto Sans Malayalam','Noto Sans Kannada','Noto Sans Bengali','Noto Sans Gurmukhi','Noto Sans Gujarati','Noto Sans Oriya','Noto Sans Sinhala','Noto Sans Arabic','Noto Sans Hebrew','Noto Sans Thai','Noto Sans Khmer','Noto Sans Lao','Noto Sans Myanmar','Noto Sans Georgian','Noto Sans Armenian','Noto Sans Ethiopic','Noto Sans JP','Noto Sans KR','Noto Sans SC','Noto Sans TC'"
@@ -198,6 +198,11 @@ async def shoot_badges(styles, outdir):
                 await el.screenshot(path=os.path.join(d, bid.replace(".", "_") + ".png"), omit_background=True)
             print("rendered", s, len(B))
         await br.close()
+
+try:
+    import styles_extra  # Pixel, VHS, Keycap, Enamel, Glitch
+except ImportError:
+    pass
 
 if __name__ == "__main__":
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
