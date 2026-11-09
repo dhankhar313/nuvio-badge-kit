@@ -99,10 +99,13 @@ L = [
 
 SPECIAL = {
  # Spanish (Spain) vs Latin American Spanish, Portuguese vs Brazilian: custom rules
- "spanish": ("SPANISH","ESPAÑOL", r"(?i)(?:\bspanish\b|\bcastellano\b|\bespa[ñn]ol\b(?![\s._-]?latino)|\besp\b|\bspa\b|🇪🇸)", False),
- "latino": ("LATINO","LATAM", r"(?i)(?:\blatino\b|\blatam\b|\blat\b|\bespa[ñn]ol[\s._-]?latino\b|🇲🇽)", False),
- "portuguese": ("PORTUGUESE","PORTUGUÊS", r"(?i)^(?=.*(?:\bportuguese\b|portugu[eê]s|\bpt[\s._-]?pt\b|🇵🇹))(?!.*(?:\bpt[\s._-]?br\b|\bbrazil|🇧🇷))", False),
- "brazilian": ("BRAZILIAN","PT-BR", r"(?i)(?:\bpt[\s._-]?br\b|\bbrazilian\b|\bdublado\b|🇧🇷)", False),
+ # Nuvio's player adds the audio track's language to what badges match, e.g. 'por Português (Portugal)'
+ # for an untagged Portuguese track. Portuguese and Spanish ignore those untagged labels so the player
+ # falls back to the stream title (Brazilian / Latino), and Brazilian / Latino also match tagged labels.
+ "spanish": ("SPANISH","ESPAÑOL", r"(?i)^(?=.*(?:\bspanish\b|\bcastellano\b|\bespa[ñn]ol\b(?![\s._-]?latino)|\besp\b|\bspa\b|🇪🇸))(?!.*(?:\b(?:spa|es)(?:[\s._-]?es)? (?:spanish|espa[ñn]ol)\b|\bes[\s._-]?419\b|\bes[-_]la\b|spanish \(latin|espa[ñn]ol \(latino))", False),
+ "latino": ("LATINO","LATAM", r"(?i)(?:\blatino\b|\blatam\b|\blat\b|\bespa[ñn]ol[\s._-]?latino\b|🇲🇽|\bes[\s._-]?419\b|\bes[-_]la\b|spanish \(latin|espa[ñn]ol \(latino)", False),
+ "portuguese": ("PORTUGUESE","PORTUGUÊS", r"(?i)^(?=.*(?:\bportuguese\b|portugu[eêÊ]s|\bpt[\s._-]?pt\b|🇵🇹))(?!.*(?:\bpt[\s._-]?br\b|\bbra[sz]il|🇧🇷|\b(?:por|pt(?:[\s._-]?pt)?) portugu))", False),
+ "brazilian": ("BRAZILIAN","PT-BR", r"(?i)(?:\bpt[\s._-]?br\b|\bbrazilian\b|\bdublado\b|🇧🇷|\bpob\b|portugu\S* \(bra[sz]il\))", False),
 }
 
 def pattern(words, codes, flags, lid):

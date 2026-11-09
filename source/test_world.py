@@ -3,6 +3,25 @@ sys.path.insert(0, '.')
 from spec import B
 from test_spec import cases as base_cases
 extra = [
+ # Nuvio player: the playing track's code and Nuvio's label for it are matched on their own;
+ # the stream title is only used for a group when the track text matched nothing in it
+ ("por Português (Portugal)", set()),
+ ("por Portuguese (Portugal)", set()),
+ ("pt Português", set()),
+ ("pt-PT Portuguese (Portugal)", set()),
+ ("pt-BR Português (Brasil)", {"brazilian"}),
+ ("pob Portuguese (Brazil)", {"brazilian"}),
+ ("spa Spanish", set()),
+ ("spa Español", set()),
+ ("es-419 Spanish (Latin America)", {"latino"}),
+ ("es-419 Español (Latinoamérica)", {"latino"}),
+ ("hin Hindi", {"hindi"}),
+ ("Filme 2026 1080p WEB-DL Brazilian", {"1080p","webdl","brazilian"}),
+ ("Movie 2026 1080p WEB-DL PT-PT", {"1080p","webdl","portuguese"}),
+ ("Movie 2026 1080p WEB-DL PORTUGUÊS", {"1080p","webdl","portuguese"}),
+ ("Pelicula 2026 1080p WEB-DL Castellano", {"1080p","webdl","spanish"}),
+ ("Movie 2026 1080p WEB-DL SPANISH", {"1080p","webdl","spanish"}),
+ ("Brazil 1985 1080p BluRay", {"1080p","bluray"}),
  ("Movie 2026 1080p WEB-DL Multi 🇬🇧 / 🇪🇸 / 🇫🇷 / 🇩🇪 / 🇮🇹 DDP5.1", {"1080p","webdl","multi","english","spanish","french","german","italian","ddp","5.1"}),
  ("Pelicula 2026 1080p WEB-DL Español Latino DD5.1", {"1080p","webdl","latino","dd","5.1"}),
  ("Filme 2026 1080p WEB-DL Dublado PT-BR", {"1080p","webdl","brazilian"}),
