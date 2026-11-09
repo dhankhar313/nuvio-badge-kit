@@ -144,4 +144,4 @@ Fork this repo and change `"isEnabled"` in a style's file to turn badges on or o
 
 ## Credits
 
-Icons by [Phosphor](https://phosphoricons.com) (MIT). Fonts: Geist, Archivo and Noto Sans (SIL Open Font Licence). Tag research from [AIOStreams](https://github.com/Viren070/AIOStreams) and [TRaSH Guides](https://trash-guides.info). Not affiliated with Dolby, DTS, IMAX or any streaming service. Released under the MIT licence.
+Icons by [Phosphor](https://phosphoricons.com) (MIT). Flags by [flag-icons](https://github.com/lipis/flag-icons) (MIT). Fonts: Geist, Archivo and Noto Sans (SIL Open Font Licence). Tag research from [AIOStreams](https://github.com/Viren070/AIOStreams) and [TRaSH Guides](https://trash-guides.info). Not affiliated with Dolby, DTS, IMAX or any streaming service. Released under the MIT licence.

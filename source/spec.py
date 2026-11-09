@@ -117,10 +117,11 @@ b("1.0","channels","1.0","speaker-simple-low","info", "(?i)^(?=.*(?:" + CH(r"1[.
 b("dual","language","DUAL AUDIO","translate","core", r"(?i)\bdual(?:[\s._-]?(?:audio|aud))?\b", name="Dual Audio")
 b("multi","language","MULTI AUDIO","translate","core", r"(?i)\bmulti(?![\s._-]?subs?\b)(?:[\s._-]?(?:audio|lang\w*))?\b", name="Multi Audio")
 b("original","language","ORG AUDIO","seal-check","core", r"(?i)\b(?:org|original[\s._-]?audio)\b", name="Original audio")
-from languages import entries as _lang_entries
+from languages import entries as _lang_entries, FLAG as _LANG_FLAG
 for _l in _lang_entries():
     b(_l["id"], "language", _l["label"], "translate", "core" if _l["on"] else "info", _l["pattern"], sub=_l["sub"], name=_l["label"].title())
     B[-1]["on"] = _l["on"]
+    B[-1]["flag"] = _LANG_FLAG.get(_l["id"])  # language badges show a flag instead of the icon and script
 b("dubbed","language","DUBBED","microphone","info", r"(?i)\b(?:dubbed|dub)\b")
 b("line-audio","language","LINE AUDIO","microphone-slash","warn", r"(?i)\b(?:line[\s._-]?(?:audio|dubbed)|linedubbed|mic[\s._-]?dubbed|cam[\s._-]?audio)\b", name="Line / cam audio")
 

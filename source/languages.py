@@ -112,6 +112,26 @@ def pattern(words, codes, flags, lid):
         p = r"(?i)(?:\benglish\b|\beng\b)(?![\s._-]?subs?\b)|🇬🇧|🇺🇸"
     return p
 
+# Country flag on each language badge (flag-icons codes, flags/1x1). The flag is where the
+# language is mainly spoken; a language with no clear country flag keeps the language icon.
+FLAG = {
+    "hindi": "in", "tamil": "in", "telugu": "in", "malayalam": "in", "kannada": "in", "bengali": "in",
+    "marathi": "in", "gujarati": "in", "punjabi": "in", "urdu": "pk", "odia": "in", "assamese": "in",
+    "bhojpuri": "in", "nepali": "np", "sinhala": "lk", "english": "gb", "japanese": "jp", "korean": "kr",
+    "chinese": "cn", "cantonese": "hk", "thai": "th", "vietnamese": "vn", "indonesian": "id", "malay": "my",
+    "filipino": "ph", "khmer": "kh", "lao": "la", "burmese": "mm", "french": "fr", "german": "de",
+    "italian": "it", "russian": "ru", "ukrainian": "ua", "polish": "pl", "czech": "cz", "slovak": "sk",
+    "hungarian": "hu", "romanian": "ro", "bulgarian": "bg", "serbian": "rs", "croatian": "hr",
+    "slovenian": "si", "bosnian": "ba", "macedonian": "mk", "albanian": "al", "greek": "gr", "turkish": "tr",
+    "dutch": "nl", "swedish": "se", "danish": "dk", "norwegian": "no", "finnish": "fi", "icelandic": "is",
+    "lithuanian": "lt", "latvian": "lv", "estonian": "ee", "catalan": "es-ct", "basque": "es-pv",
+    "galician": "es-ga", "irish": "ie", "welsh": "gb-wls", "belarusian": "by", "spanish": "es",
+    "latino": "mx", "portuguese": "pt", "brazilian": "br", "arabic": "sa", "hebrew": "il", "persian": "ir",
+    "pashto": "af", "georgian": "ge", "armenian": "am", "azerbaijani": "az", "kazakh": "kz", "uzbek": "uz",
+    "mongolian": "mn", "swahili": "ke", "amharic": "et", "afrikaans": "za", "yoruba": "ng", "hausa": "ng",
+    "zulu": "za",
+}
+
 def entries():
     out = []
     for lid, label, native, words, codes, flags, on in L:

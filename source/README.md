@@ -5,7 +5,7 @@ Everything in this kit is generated from these files.
 | File | What it holds |
 |---|---|
 | `spec.py` | Every badge: label, icon, tier and matching pattern |
-| `languages.py` | The 83 languages, their native names and match words |
+| `languages.py` | The 83 languages, their flags, native names and match words |
 | `render.py` | The first 5 styles as CSS, and the renderer |
 | `styles_extra.py` | Pixel, VHS, Keycap, Enamel, Glitch, Line, Dot and Glyph |
 | `nuvio_size.py` | Makes the final images: bigger text, trimmed for Nuvio's 16dp badges |

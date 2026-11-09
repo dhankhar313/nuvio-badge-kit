@@ -36,6 +36,7 @@
     "@fontsource/oswald": "^5.0.0",
     "@fontsource/jetbrains-mono": "^5.0.0",
     "@fontsource/bebas-neue": "^5.0.0",
-    "@fontsource/silkscreen": "^5.0.0"
+    "@fontsource/silkscreen": "^5.0.0",
+    "flag-icons": "^7.6.0"
   }
 }

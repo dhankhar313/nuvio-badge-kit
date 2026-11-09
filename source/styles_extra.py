@@ -148,3 +148,9 @@ STYLES["glyph"] = dict(title="Glyph", desc="Icon-led: a big coloured symbol firs
 .t-hero .tile { background: linear-gradient(150deg, #ffe08a -20%, #d99a1e 75%); } .t-hero .kicker, .t-hero .suffix { color: #f6c453; }
 .t-warn .tile { background: linear-gradient(150deg, #ff9a9a -20%, #d93636 75%); } .t-warn .main { color: #ffb4b4; }
 """))
+
+STYLES["vhs"]["flag_css"] = ".flag .tile { width: 46px; height: 46px; border-radius: 4px; margin-left: 6px; }"
+
+STYLES["dot"]["flag_css"] = ".flag .tile { width: 32px; height: 32px; border-radius: 50%; box-shadow: 0 0 0 2px rgba(255,255,255,.15) !important; }"
+
+STYLES["line"]["flag_css"] = ".flag .tile { width: 34px; height: 34px; border-radius: 7px; }"

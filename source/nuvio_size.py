@@ -15,6 +15,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import render  # loads styles_extra too
 from render import STYLES, page, badge_html, ROOT
 from spec import B
+BYID = {x['id']: x for x in B}
 import numpy as np
 from PIL import Image
 
@@ -98,7 +99,8 @@ async def shoot(style, outdir, ids=None):
         report = {}
         for el in await pg.query_selector_all(".cell"):
             bid = await el.get_attribute("data-id")
-            path = os.path.join(d, bid.replace(".", "_") + ".png")
+            # flag language badges get a new file name, so Nuvio fetches them instead of its cached copy
+            path = os.path.join(d, bid.replace(".", "_") + ("-flag" if BYID[bid].get("flag") else "") + ".png")
             await el.screenshot(path=path, omit_background=True)
             aspect = crop_and_fade(path, res["radius"])
             report[bid] = dict(res["fit"][bid], aspect=round(aspect, 3))

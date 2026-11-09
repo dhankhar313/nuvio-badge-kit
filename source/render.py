@@ -7,6 +7,7 @@ from spec import B, GROUPS
 ROOT = os.path.dirname(os.path.abspath(__file__))
 NM = os.path.join(ROOT, "node_modules")
 ICON_DIR = os.path.join(NM, "@phosphor-icons/core/assets")
+FLAG_DIR = os.path.join(NM, "flag-icons/flags/1x1")
 
 HUES = {
  "source": ("#67e8f9", "#0891b2"), "resolution": ("#93c5fd", "#2563eb"), "hdr": ("#fde68a", "#f59e0b"),
@@ -50,6 +51,12 @@ body {{ background: transparent; }}
 .tile {{ flex: none; display: grid; place-items: center; position: relative; }}
 .tile svg {{ display: block; }}
 .duo {{ opacity: .38; }}
+:where(.flag) .tile {{ width: 34px; height: 34px; border-radius: 8px; }}
+"""
+
+# Flag language badges: the flag fills the style's own icon tile (shape, border and gloss stay).
+FLAG_CSS = """
+.flag .tile { display: grid !important; background: var(--flag) center/cover no-repeat !important; border-color: rgba(255,255,255,.35) !important; }
 """
 
 STYLES = {}
@@ -161,8 +168,12 @@ STYLES["liquid"] = dict(title="Liquid Glass", desc="Clear glass with a bright ri
 def badge_html(x):
     h1, h2 = HUES["warn"] if x["tier"] == "warn" else HUES[x["hue"]]
     style = f"--h1:{h1};--h2:{h2};--h2a:{h2}55;--h2b:{h2}aa"
-    icon = icon_svg(x["icon"], CUR["icon"])
     lab = html.escape(x["label"])
+    if x.get("flag"):
+        flag = f"url(file://{FLAG_DIR}/{x['flag']}.svg)"
+        return (f'<div class="badge flag t-{x["tier"]}" style="{style};--flag:{flag}"><div class="tile"></div>'
+                f'<div class="txt"><span class="main">{lab}</span></div></div>')
+    icon = icon_svg(x["icon"], CUR["icon"])
     if x["sub"] and x["mode"] == "kicker":
         text = f'<div class="stack"><div class="kicker">{html.escape(x["sub"])}</div><div class="main">{lab}</div></div>'
     elif x["sub"]:
@@ -175,7 +186,7 @@ def badge_html(x):
 def page(style_key, body, extra_css=""):
     global CUR
     CUR = STYLES[style_key]
-    return f"""<!DOCTYPE html><html><head><meta charset="utf-8">{FONTS}<style>{BASE_CSS}{CUR['css']}{extra_css}
+    return f"""<!DOCTYPE html><html><head><meta charset="utf-8">{FONTS}<style>{BASE_CSS}{CUR['css']}{FLAG_CSS}{CUR.get('flag_css', '')}{extra_css}
 .cell {{ --pad: {CUR['pad']}px; }}</style></head><body>{body}</body></html>"""
 
 def all_badges_page(style_key):

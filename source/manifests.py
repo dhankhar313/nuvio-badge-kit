@@ -18,7 +18,8 @@ STYLES = {"obsidian": "Obsidian", "prism": "Prism", "neon": "Neon", "cinema": "C
 # People who paste their link again get it; old links keep working from the old folders.
 IMAGES = "v2/"
 
-def fname(bid): return bid.replace(".", "_")
+# Flag language badges are new artwork too, so they get their own file names.
+def fname(x): return x["id"].replace(".", "_") + ("-flag" if x.get("flag") else "")
 
 def build(style, base, ext, groups, enable):
     items = sorted([x for x in B if x["group"] in groups],
@@ -29,7 +30,7 @@ def build(style, base, ext, groups, enable):
         "groups": [{"id": g, "name": GNAME[g], "color": "#00000000", "borderColor": "#00000000", "isExpanded": True} for g in groups],
         "filters": [{
             "id": x["id"], "groupId": x["group"], "name": x["name"], "pattern": x["pattern"],
-            "imageURL": f"{base}/{IMAGES}{STYLES[style]}/{fname(x['id'])}.{ext}",
+            "imageURL": f"{base}/{IMAGES}{STYLES[style]}/{fname(x)}.{ext}",
             "tagColor": "#00000000", "borderColor": "#00000000", "textColor": "#00000000",
             "tagStyle": "filled and bordered", "isEnabled": enable(x), "type": "filter"} for x in items],
     }
