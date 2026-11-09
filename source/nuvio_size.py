@@ -23,7 +23,8 @@ CAP = 92 / 16            # widest aspect ratio Nuvio shows at full height
 NUVIO_R = 6 / 16         # Nuvio's corner radius as a share of the image height
 ZOOMS = [1.2, 1.15, 1.1, 1.05, 1.0, 0.95, 0.9, 0.85, 0.8]
 PUBLISHED = {"obsidian": "Obsidian", "prism": "Prism", "neon": "Neon", "cinema": "Cinema", "liquid": "Liquid",
-             "pixel": "Pixel", "vhs": "VHS", "keycap": "Keycap", "enamel": "Enamel", "glitch": "Glitch"}
+             "pixel": "Pixel", "vhs": "VHS", "keycap": "Keycap", "enamel": "Enamel", "glitch": "Glitch",
+             "line": "Line", "dot": "Dot", "glyph": "Glyph"}
 
 STACK_DROP = {"neon": 0.15, "keycap": 0.15}   # these styles have thicker top edges
 

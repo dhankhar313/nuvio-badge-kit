@@ -1,4 +1,4 @@
-"""Extra styles: Pixel, VHS, Keycap, Enamel, Glitch."""
+"""Extra styles: Pixel, VHS, Keycap, Enamel, Glitch, Line, Dot, Glyph."""
 from render import STYLES, FALLBACK
 
 STYLES["pixel"] = dict(title="Pixel", desc="Retro LED dot-matrix sign", icon="bold", pad=10, css="""
@@ -106,3 +106,45 @@ STYLES["glitch"] = dict(title="Glitch", desc="Cyberpunk terminal: RGB-split text
 .t-hero .main { color: #ffe9a8; text-shadow: -2px 0 rgba(255,60,120,.8), 2px 0 rgba(255,190,40,.8); } .t-hero .tile svg, .t-hero .suffix, .t-hero .kicker { color: #ffd166; }
 .t-warn { border-left-color: #ff4d4d; } .t-warn .main { color: #ffdede; text-shadow: -2px 0 rgba(255,0,60,.95), 2px 0 rgba(255,140,0,.6); }
 """.replace("FALLBACK", FALLBACK))
+
+def css(s): return s.replace("FALLBACK", FALLBACK)
+
+# Minimal: outline only, coloured by group, small line icon.
+STYLES["line"] = dict(title="Line", desc="Minimal: thin coloured outline, line icon", icon="bold", pad=6, css=css("""
+.badge { padding: 0 22px 0 16px; gap: 10px; border-radius: 12px; background: rgba(12,13,17,.6); border: 2.5px solid var(--h1); }
+.tile { width: 28px; height: 28px; } .tile svg { width: 28px; height: 28px; color: var(--h1); }
+.main { font-weight: 700; letter-spacing: -.2px; color: #fff; }
+.kicker, .suffix { font-weight: 650; color: var(--h1); }
+.div { width: 2px; background: color-mix(in srgb, var(--h1) 45%, transparent); }
+.t-info { border-color: rgba(255,255,255,.30); } .t-info .tile svg, .t-info .kicker, .t-info .suffix { color: rgba(255,255,255,.6); }
+.t-info .main { color: rgba(255,255,255,.78); }
+.t-hero { border-color: #f6c453; } .t-hero .main { color: #f6c453; } .t-hero .tile svg, .t-hero .kicker, .t-hero .suffix { color: #f6c453; }
+.t-warn { border-color: #ff6b6b; } .t-warn .main { color: #ff8585; } .t-warn .tile svg, .t-warn .kicker, .t-warn .suffix { color: #ff8585; }
+"""))
+
+# Minimal: soft pill with a coloured dot for the group.
+STYLES["dot"] = dict(title="Dot", desc="Minimal: soft pill with a coloured dot", icon="fill", pad=6, css=css("""
+.badge { padding: 0 24px 0 20px; gap: 13px; border-radius: 999px; background: rgba(30,32,40,.94); border: 1.5px solid rgba(255,255,255,.07); }
+.tile { width: 13px; height: 13px; border-radius: 50%; background: var(--h2); box-shadow: 0 0 0 4px color-mix(in srgb, var(--h2) 28%, transparent); }
+.tile svg { display: none; }
+.main { font-weight: 650; letter-spacing: -.2px; color: #eef0f3; }
+.kicker, .suffix { font-weight: 600; color: rgba(255,255,255,.5); }
+.div { width: 2px; background: rgba(255,255,255,.14); }
+.t-info .main { color: rgba(255,255,255,.7); } .t-info .tile { background: #8b93a3; box-shadow: 0 0 0 4px rgba(139,147,163,.22); }
+.t-hero .tile { background: #f6c453; box-shadow: 0 0 0 4px rgba(246,196,83,.3); } .t-hero .main { color: #fff3d1; }
+.t-warn .tile { background: #ff5a5a; box-shadow: 0 0 0 4px rgba(255,90,90,.3); } .t-warn .main { color: #ffb4b4; }
+"""))
+
+# Icon-led: the icon does the talking, big and coloured; the word is secondary.
+STYLES["glyph"] = dict(title="Glyph", desc="Icon-led: a big coloured symbol first, the word second", icon="fill", pad=6, css=css("""
+.badge { padding: 0 20px 0 0; gap: 12px; border-radius: 14px; background: rgba(18,20,26,.92); overflow: hidden; }
+.tile { width: 60px; height: 60px; background: linear-gradient(150deg, var(--h1) -20%, var(--h2) 75%); }
+.tile svg { width: 40px; height: 40px; color: #fff; filter: drop-shadow(0 1px 1px rgba(0,0,0,.3)); }
+.main { font-weight: 700; letter-spacing: -.3px; color: #fff; font-size: 33px; }
+.stack .main { font-size: 27px; }
+.kicker { color: var(--h1); font-size: 14px; } .suffix { color: var(--h1); font-weight: 650; }
+.div { width: 2px; background: rgba(255,255,255,.18); }
+.t-info .tile { background: linear-gradient(150deg, #9aa3b2 -20%, #4b5262 75%); } .t-info .main { color: rgba(255,255,255,.78); }
+.t-hero .tile { background: linear-gradient(150deg, #ffe08a -20%, #d99a1e 75%); } .t-hero .kicker, .t-hero .suffix { color: #f6c453; }
+.t-warn .tile { background: linear-gradient(150deg, #ff9a9a -20%, #d93636 75%); } .t-warn .main { color: #ffb4b4; }
+"""))

@@ -11,7 +11,8 @@ LANG_FIRST = ["line-audio", "dual", "multi", "original", "dubbed"]
 TIER_RANK = {"hero": 0, "warn": 1, "core": 2, "info": 3}
 GNAME = dict(GROUPS)
 STYLES = {"obsidian": "Obsidian", "prism": "Prism", "neon": "Neon", "cinema": "Cinema", "liquid": "Liquid",
-          "pixel": "Pixel", "vhs": "VHS", "keycap": "Keycap", "enamel": "Enamel", "glitch": "Glitch"}
+          "pixel": "Pixel", "vhs": "VHS", "keycap": "Keycap", "enamel": "Enamel", "glitch": "Glitch",
+          "line": "Line", "dot": "Dot", "glyph": "Glyph"}
 
 # Nuvio caches badge images forever by URL, so new artwork goes in a new folder.
 # People who paste their link again get it; old links keep working from the old folders.
