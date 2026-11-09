@@ -90,6 +90,20 @@
    "color": "#00000000",
    "borderColor": "#00000000",
    "isExpanded": true
+  },
+  {
+   "id": "live",
+   "name": "Live TV",
+   "color": "#00000000",
+   "borderColor": "#00000000",
+   "isExpanded": true
+  },
+  {
+   "id": "container",
+   "name": "Container",
+   "color": "#00000000",
+   "borderColor": "#00000000",
+   "isExpanded": true
   }
  ],
  "filters": [
@@ -129,7 +143,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -142,7 +156,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -155,7 +169,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -168,7 +182,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -181,7 +195,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -194,7 +208,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -207,7 +221,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -220,7 +234,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -298,7 +312,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -311,7 +325,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -363,7 +377,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -376,7 +390,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -441,7 +455,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -467,7 +481,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -480,7 +494,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -493,7 +507,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -545,7 +559,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -558,7 +572,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -571,7 +585,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -584,7 +598,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -597,7 +611,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -610,7 +624,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -623,7 +637,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -636,7 +650,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -662,7 +676,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -792,7 +806,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -805,7 +819,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -818,7 +832,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -831,7 +845,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -844,7 +858,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -857,7 +871,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -883,7 +897,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -909,7 +923,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -922,7 +936,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -948,7 +962,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -987,7 +1001,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -1039,7 +1053,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -1052,7 +1066,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -1065,7 +1079,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -1078,7 +1092,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2313,7 +2327,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2326,7 +2340,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2339,7 +2353,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2352,7 +2366,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2365,7 +2379,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2378,7 +2392,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2404,7 +2418,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2417,7 +2431,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2430,7 +2444,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2443,7 +2457,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2456,7 +2470,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2508,7 +2522,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2547,7 +2561,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2560,7 +2574,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2573,7 +2587,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2586,7 +2600,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2599,7 +2613,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2612,7 +2626,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2625,7 +2639,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2638,7 +2652,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2651,7 +2665,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2664,7 +2678,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2677,7 +2691,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2690,7 +2704,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2703,7 +2717,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2716,7 +2730,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2729,7 +2743,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2742,7 +2756,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2755,7 +2769,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2768,7 +2782,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2781,7 +2795,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2794,7 +2808,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2807,7 +2821,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2820,7 +2834,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2833,7 +2847,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2846,7 +2860,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2859,7 +2873,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2872,7 +2886,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2885,7 +2899,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2898,7 +2912,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2911,7 +2925,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2924,7 +2938,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2937,7 +2951,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2950,7 +2964,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2963,7 +2977,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2976,7 +2990,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -2989,7 +3003,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3002,7 +3016,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3015,7 +3029,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3028,7 +3042,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3041,7 +3055,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3054,7 +3068,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3067,7 +3081,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3080,7 +3094,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3093,7 +3107,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3106,7 +3120,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3119,7 +3133,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3132,7 +3146,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3145,7 +3159,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3158,7 +3172,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3171,7 +3185,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3184,7 +3198,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3197,7 +3211,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3210,7 +3224,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3223,7 +3237,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3236,7 +3250,7 @@
    "borderColor": "#00000000",
    "textColor": "#00000000",
    "tagStyle": "filled and bordered",
-   "isEnabled": false,
+   "isEnabled": true,
    "type": "filter"
   },
   {
@@ -3245,6 +3259,240 @@
    "name": "Sample / Extras",
    "pattern": "(?i)\\b(?:sample|extras?|trailer|featurette)\\b",
    "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/sample.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "live",
+   "groupId": "live",
+   "name": "LIVE",
+   "pattern": "(?i)🔴|\\[\\s*live\\s*\\]|\\(\\s*live\\s*\\)|\\blive[\\s._-]?(?:now|tv|stream)\\b|\\blive$",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/live.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "247",
+   "groupId": "live",
+   "name": "24/7",
+   "pattern": "(?i)\\b24[\\s._-]?(?:/|x)[\\s._-]?7\\b",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/247.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "ppv",
+   "groupId": "live",
+   "name": "PPV",
+   "pattern": "(?i)\\b(?:ppv|pay[\\s._-]?per[\\s._-]?view)\\b",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/ppv.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "hd-feed",
+   "groupId": "live",
+   "name": "HD feed",
+   "pattern": "(?i)(?:^|[\\s|:\\[(])hd(?=$|[\\s|:\\])])",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/hd-feed.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "sd-feed",
+   "groupId": "live",
+   "name": "SD feed",
+   "pattern": "(?i)(?:^|[\\s|:\\[(])sd(?=$|[\\s|:\\])])",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/sd-feed.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "raw",
+   "groupId": "live",
+   "name": "RAW FEED",
+   "pattern": "(?i)\\braws?\\b",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/raw.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "live-hfr",
+   "groupId": "live",
+   "name": "50/60 fps feed",
+   "pattern": "(?i)\\b(?:50|60)[\\s._-]?fps\\b",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/live-hfr.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "backup",
+   "groupId": "live",
+   "name": "BACKUP",
+   "pattern": "(?i)\\b(?:backup|b/u|alt(?:ernate)?[\\s._-]?feed)\\b",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/backup.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "catchup",
+   "groupId": "live",
+   "name": "Catch-up",
+   "pattern": "(?i)\\b(?:catch[\\s._-]?up|replay)\\b",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/catchup.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "region-in",
+   "groupId": "live",
+   "name": "Region IN",
+   "pattern": "(?:^|[\\s\\[(|])IN(?=\\s*[|:\\])])",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/region-in.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "region-uk",
+   "groupId": "live",
+   "name": "Region UK",
+   "pattern": "(?:^|[\\s\\[(|])UK(?=\\s*[|:\\])])",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/region-uk.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "region-us",
+   "groupId": "live",
+   "name": "Region US",
+   "pattern": "(?:^|[\\s\\[(|])US(?=\\s*[|:\\])])",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/region-us.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "hls",
+   "groupId": "live",
+   "name": "HLS",
+   "pattern": "(?i)\\b(?:m3u8|hls)\\b",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/hls.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "mpegts",
+   "groupId": "live",
+   "name": "MPEG-TS",
+   "pattern": "(?i)\\bmpeg[\\s._-]?ts\\b|\\.ts$",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/mpegts.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "mkv",
+   "groupId": "container",
+   "name": "MKV",
+   "pattern": "(?i)\\bmkv\\b",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/mkv.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "mp4",
+   "groupId": "container",
+   "name": "MP4",
+   "pattern": "(?i)\\bmp4\\b",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/mp4.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "m2ts",
+   "groupId": "container",
+   "name": "M2TS",
+   "pattern": "(?i)\\b(?:m2ts|bdav)\\b",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/m2ts.webp",
+   "tagColor": "#00000000",
+   "borderColor": "#00000000",
+   "textColor": "#00000000",
+   "tagStyle": "filled and bordered",
+   "isEnabled": true,
+   "type": "filter"
+  },
+  {
+   "id": "avi",
+   "groupId": "container",
+   "name": "AVI",
+   "pattern": "(?i)\\bavi\\b",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/Prism/avi.webp",
    "tagColor": "#00000000",
    "borderColor": "#00000000",
    "textColor": "#00000000",

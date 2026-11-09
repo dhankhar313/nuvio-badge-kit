@@ -4,7 +4,7 @@
 
 ## How to install
 
-1. Pick a style below and copy its link.
+1. Pick a style below and copy its link. Each link has all 261 badges, Live TV included.
 2. In Nuvio, open **Profile → Layout → Streams → Fusion badge URLs**.
 3. Paste the link, then open any stream list.
 
@@ -51,13 +51,6 @@ https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/cinema.js
 ```
 https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/liquid.json
 ```
-
-## Extra files
-
-Every style has two more files. Add the same ending to your style's link:
-
-- **`-live.json`** adds Live TV badges. Paste it as a second link.
-- **`-full.json`** also shows codecs, bit depth, services and release flags.
 
 ## Every badge
 

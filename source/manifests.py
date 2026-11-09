@@ -24,7 +24,7 @@ def build(style, base, ext, groups, enable):
             "tagStyle": "filled and bordered", "isEnabled": enable(x), "type": "filter"} for x in items],
     }
 
-recommended = lambda x: x.get("on", True) if x["group"] == "language" else x["tier"] in ("hero", "core", "warn")
+recommended = lambda x: True if x["group"] == "language" else x["tier"] in ("hero", "core", "warn")
 everything = lambda x: True
 
 if __name__ == "__main__":
@@ -32,7 +32,7 @@ if __name__ == "__main__":
     out = sys.argv[3] if len(sys.argv) > 3 else "kit"
     os.makedirs(out, exist_ok=True)
     for s, title in STYLES.items():
-        for suffix, groups, rule in [("", ORDER, recommended), ("-full", ORDER, everything), ("-live", LIVE, everything)]:
+        for suffix, groups, rule in [("", ORDER + LIVE, everything)]:
             m = build(s, base, ext, groups, rule)
             p = os.path.join(out, f"{s}{suffix}.json")
             json.dump(m, open(p, "w"), indent=1, ensure_ascii=False)
