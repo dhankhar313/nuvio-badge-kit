@@ -15,7 +15,7 @@ def lang_rank(x):
     languages, then the other Indian languages (there are many, so they go last)."""
     if x["id"] in LANG_FIRST: return (0, LANG_FIRST.index(x["id"]))
     if x["id"] in LANG_LEAD: return (1, LANG_LEAD.index(x["id"]))
-    if x.get("flag") == "in": return (3, B.index(x))
+    if x.get("flag") in ("in", "in-bd"): return (3, B.index(x))  # Bengali keeps its place
     return (2, B.index(x))
 TIER_RANK = {"hero": 0, "warn": 1, "core": 2, "info": 3}
 GNAME = dict(GROUPS)
@@ -28,7 +28,9 @@ STYLES = {"obsidian": "Obsidian", "prism": "Prism", "neon": "Neon", "cinema": "C
 IMAGES = "v2/"
 
 # Flag language badges are new artwork too, so they get their own file names.
-def fname(x): return x["id"].replace(".", "_") + ("-flag" if x.get("flag") else "")
+def fname(x):
+    rev = x.get("flag_rev", 1)
+    return x["id"].replace(".", "_") + (("-flag" + (str(rev) if rev > 1 else "")) if x.get("flag") else "")
 
 def build(style, base, ext, groups, enable):
     items = sorted([x for x in B if x["group"] in groups],

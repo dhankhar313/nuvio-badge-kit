@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<!-- Bengali: the left half of India's flag and the right half of Bangladesh's flag, both cut down
+     the middle, so half the chakra and half the red disc meet as one circle. -->
+<defs>
+<clipPath id="left"><rect width="256" height="512"/></clipPath>
+<clipPath id="right"><rect x="256" width="256" height="512"/></clipPath>
+</defs>
+<g clip-path="url(#left)">
+<rect width="512" height="171" fill="#FF9933"/>
+<rect y="171" width="512" height="170" fill="#FFFFFF"/>
+<rect y="341" width="512" height="171" fill="#138808"/>
+<g stroke="#000080" fill="none"><circle cx="256" cy="256" r="62" stroke-width="10"/><g stroke-width="5"><line x1="256" y1="256" x2="314.0" y2="256.0"/><line x1="256" y1="256" x2="312.0" y2="271.0"/><line x1="256" y1="256" x2="306.2" y2="285.0"/><line x1="256" y1="256" x2="297.0" y2="297.0"/><line x1="256" y1="256" x2="285.0" y2="306.2"/><line x1="256" y1="256" x2="271.0" y2="312.0"/><line x1="256" y1="256" x2="256.0" y2="314.0"/><line x1="256" y1="256" x2="241.0" y2="312.0"/><line x1="256" y1="256" x2="227.0" y2="306.2"/><line x1="256" y1="256" x2="215.0" y2="297.0"/><line x1="256" y1="256" x2="205.8" y2="285.0"/><line x1="256" y1="256" x2="200.0" y2="271.0"/><line x1="256" y1="256" x2="198.0" y2="256.0"/><line x1="256" y1="256" x2="200.0" y2="241.0"/><line x1="256" y1="256" x2="205.8" y2="227.0"/><line x1="256" y1="256" x2="215.0" y2="215.0"/><line x1="256" y1="256" x2="227.0" y2="205.8"/><line x1="256" y1="256" x2="241.0" y2="200.0"/><line x1="256" y1="256" x2="256.0" y2="198.0"/><line x1="256" y1="256" x2="271.0" y2="200.0"/><line x1="256" y1="256" x2="285.0" y2="205.8"/><line x1="256" y1="256" x2="297.0" y2="215.0"/><line x1="256" y1="256" x2="306.2" y2="227.0"/><line x1="256" y1="256" x2="312.0" y2="241.0"/></g></g>
+<circle cx="256" cy="256" r="12" fill="#000080"/>
+</g>
+<g clip-path="url(#right)">
+<rect width="512" height="512" fill="#006A4E"/>
+<circle cx="256" cy="256" r="67" fill="#F42A41"/>
+</g>
+</svg>

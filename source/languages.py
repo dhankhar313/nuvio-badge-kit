@@ -118,7 +118,7 @@ def pattern(words, codes, flags, lid):
 # Country flag on each language badge (flag-icons codes, flags/1x1). The flag is where the
 # language is mainly spoken; a language with no clear country flag keeps the language icon.
 FLAG = {
-    "hindi": "in", "tamil": "in", "telugu": "in", "malayalam": "in", "kannada": "in", "bengali": "in",
+    "hindi": "in", "tamil": "in", "telugu": "in", "malayalam": "in", "kannada": "in", "bengali": "in-bd",
     "marathi": "in", "gujarati": "in", "punjabi": "in", "urdu": "pk", "odia": "in", "assamese": "in",
     "bhojpuri": "in", "nepali": "np", "sinhala": "lk", "english": "gb", "japanese": "jp", "korean": "kr",
     "chinese": "cn", "cantonese": "hk", "thai": "th", "vietnamese": "vn", "indonesian": "id", "malay": "my",
@@ -134,6 +134,11 @@ FLAG = {
     "mongolian": "mn", "swahili": "ke", "amharic": "et", "afrikaans": "za", "yoruba": "ng", "hausa": "ng",
     "zulu": "za",
 }
+
+# Our own flags (in flags/): "in-bd" is the left half of India's flag and the right half of Bangladesh's, for Bengali.
+CUSTOM_FLAGS = {"in-bd"}
+# Nuvio keeps badge images forever, so a badge whose flag changes needs a new file name.
+FLAG_REV = {"bengali": 2}
 
 def entries():
     out = []

@@ -8,6 +8,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 NM = os.path.join(ROOT, "node_modules")
 ICON_DIR = os.path.join(NM, "@phosphor-icons/core/assets")
 FLAG_DIR = os.path.join(NM, "flag-icons/flags/1x1")
+CUSTOM_FLAG_DIR = os.path.join(ROOT, "flags")  # our own, e.g. in-bd.svg for Bengali
 
 HUES = {
  "source": ("#67e8f9", "#0891b2"), "resolution": ("#93c5fd", "#2563eb"), "hdr": ("#fde68a", "#f59e0b"),
@@ -170,7 +171,8 @@ def badge_html(x):
     style = f"--h1:{h1};--h2:{h2};--h2a:{h2}55;--h2b:{h2}aa"
     lab = html.escape(x["label"])
     if x.get("flag"):
-        flag = f"url(file://{FLAG_DIR}/{x['flag']}.svg)"
+        own = os.path.join(CUSTOM_FLAG_DIR, f"{x['flag']}.svg")
+        flag = f"url(file://{own if os.path.exists(own) else os.path.join(FLAG_DIR, x['flag'] + '.svg')})"
         return (f'<div class="badge flag t-{x["tier"]}" style="{style};--flag:{flag}"><div class="tile"></div>'
                 f'<div class="txt"><span class="main">{lab}</span></div></div>')
     icon = icon_svg(x["icon"], CUR["icon"])

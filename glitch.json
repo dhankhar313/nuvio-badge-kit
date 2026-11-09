@@ -3414,7 +3414,7 @@
    "groupId": "language",
    "name": "Bengali",
    "pattern": "(?i)(?:\\bbengali\\b|\\bbangla\\b|বাংলা|🇧🇩)",
-   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/v2/Glitch/bengali-flag.webp",
+   "imageURL": "https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/v2/Glitch/bengali-flag2.webp",
    "tagColor": "#00000000",
    "borderColor": "#00000000",
    "textColor": "#00000000",

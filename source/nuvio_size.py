@@ -100,7 +100,8 @@ async def shoot(style, outdir, ids=None):
         for el in await pg.query_selector_all(".cell"):
             bid = await el.get_attribute("data-id")
             # flag language badges get a new file name, so Nuvio fetches them instead of its cached copy
-            path = os.path.join(d, bid.replace(".", "_") + ("-flag" if BYID[bid].get("flag") else "") + ".png")
+            rev = BYID[bid].get("flag_rev", 1)
+            path = os.path.join(d, bid.replace(".", "_") + (("-flag" + (str(rev) if rev > 1 else "")) if BYID[bid].get("flag") else "") + ".png")
             await el.screenshot(path=path, omit_background=True)
             aspect = crop_and_fade(path, res["radius"])
             report[bid] = dict(res["fit"][bid], aspect=round(aspect, 3))
