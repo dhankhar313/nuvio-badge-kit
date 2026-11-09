@@ -2,3 +2,4 @@ out/
 node_modules/
 __pycache__/
 _*.html
+_tests.json
