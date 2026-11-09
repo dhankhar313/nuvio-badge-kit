@@ -13,6 +13,10 @@ GNAME = dict(GROUPS)
 STYLES = {"obsidian": "Obsidian", "prism": "Prism", "neon": "Neon", "cinema": "Cinema", "liquid": "Liquid",
           "pixel": "Pixel", "vhs": "VHS", "keycap": "Keycap", "enamel": "Enamel", "glitch": "Glitch"}
 
+# Nuvio caches badge images forever by URL, so new artwork goes in a new folder.
+# People who paste their link again get it; old links keep working from the old folders.
+IMAGES = "v2/"
+
 def fname(bid): return bid.replace(".", "_")
 
 def build(style, base, ext, groups, enable):
@@ -24,7 +28,7 @@ def build(style, base, ext, groups, enable):
         "groups": [{"id": g, "name": GNAME[g], "color": "#00000000", "borderColor": "#00000000", "isExpanded": True} for g in groups],
         "filters": [{
             "id": x["id"], "groupId": x["group"], "name": x["name"], "pattern": x["pattern"],
-            "imageURL": f"{base}/{STYLES[style]}/{fname(x['id'])}.{ext}",
+            "imageURL": f"{base}/{IMAGES}{STYLES[style]}/{fname(x['id'])}.{ext}",
             "tagColor": "#00000000", "borderColor": "#00000000", "textColor": "#00000000",
             "tagStyle": "filled and bordered", "isEnabled": enable(x), "type": "filter"} for x in items],
     }

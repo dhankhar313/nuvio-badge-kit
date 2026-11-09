@@ -10,6 +10,8 @@
 
 To switch styles later, paste the new link and restart Nuvio.
 
+**Already using it?** Paste your link again to get the latest, bigger badges.
+
 Language badges always come last in the row, so quality badges stay up front.
 
 ## Styles
@@ -109,7 +111,7 @@ https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/glitch.js
 ## Something wrong?
 
 - **No badges:** check the link starts with `raw.githubusercontent.com`, then restart Nuvio.
-- **Old badges still show:** clear Nuvio's cache.
+- **Badges look small or old:** paste your link again in Nuvio.
 - **A badge is wrong or missing:** [open an issue](../../issues) with the stream's full title.
 
 ## Make it your own
