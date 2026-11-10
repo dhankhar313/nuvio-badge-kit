@@ -21,7 +21,7 @@ Language badges always come last in the row, so quality badges stay up front.
 ![Obsidian](previews/preview-obsidian.jpg)
 
 ```
-https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/obsidian.json
+https://raw.githubusercontent.com/dhankhar313/nuvio-badge-kit/main/obsidian.json
 ```
 
 ### Prism
@@ -29,7 +29,7 @@ https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/obsidian.
 ![Prism](previews/preview-prism.jpg)
 
 ```
-https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/prism.json
+https://raw.githubusercontent.com/dhankhar313/nuvio-badge-kit/main/prism.json
 ```
 
 ### Neon
@@ -37,7 +37,7 @@ https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/prism.jso
 ![Neon](previews/preview-neon.jpg)
 
 ```
-https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/neon.json
+https://raw.githubusercontent.com/dhankhar313/nuvio-badge-kit/main/neon.json
 ```
 
 ### Cinema
@@ -45,7 +45,7 @@ https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/neon.json
 ![Cinema](previews/preview-cinema.jpg)
 
 ```
-https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/cinema.json
+https://raw.githubusercontent.com/dhankhar313/nuvio-badge-kit/main/cinema.json
 ```
 
 ### Liquid
@@ -53,7 +53,7 @@ https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/cinema.js
 ![Liquid](previews/preview-liquid.jpg)
 
 ```
-https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/liquid.json
+https://raw.githubusercontent.com/dhankhar313/nuvio-badge-kit/main/liquid.json
 ```
 
 ### Pixel
@@ -61,7 +61,7 @@ https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/liquid.js
 ![Pixel](previews/preview-pixel.jpg)
 
 ```
-https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/pixel.json
+https://raw.githubusercontent.com/dhankhar313/nuvio-badge-kit/main/pixel.json
 ```
 
 ### VHS
@@ -69,7 +69,7 @@ https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/pixel.jso
 ![VHS](previews/preview-vhs.jpg)
 
 ```
-https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/vhs.json
+https://raw.githubusercontent.com/dhankhar313/nuvio-badge-kit/main/vhs.json
 ```
 
 ### Keycap
@@ -77,7 +77,7 @@ https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/vhs.json
 ![Keycap](previews/preview-keycap.jpg)
 
 ```
-https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/keycap.json
+https://raw.githubusercontent.com/dhankhar313/nuvio-badge-kit/main/keycap.json
 ```
 
 ### Enamel
@@ -85,7 +85,7 @@ https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/keycap.js
 ![Enamel](previews/preview-enamel.jpg)
 
 ```
-https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/enamel.json
+https://raw.githubusercontent.com/dhankhar313/nuvio-badge-kit/main/enamel.json
 ```
 
 ### Glitch
@@ -93,7 +93,7 @@ https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/enamel.js
 ![Glitch](previews/preview-glitch.jpg)
 
 ```
-https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/glitch.json
+https://raw.githubusercontent.com/dhankhar313/nuvio-badge-kit/main/glitch.json
 ```
 
 ### Line
@@ -101,7 +101,7 @@ https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/glitch.js
 ![Line](previews/preview-line.jpg)
 
 ```
-https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/line.json
+https://raw.githubusercontent.com/dhankhar313/nuvio-badge-kit/main/line.json
 ```
 
 ### Dot
@@ -109,7 +109,7 @@ https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/line.json
 ![Dot](previews/preview-dot.jpg)
 
 ```
-https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/dot.json
+https://raw.githubusercontent.com/dhankhar313/nuvio-badge-kit/main/dot.json
 ```
 
 ### Glyph
@@ -117,7 +117,7 @@ https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/dot.json
 ![Glyph](previews/preview-glyph.jpg)
 
 ```
-https://raw.githubusercontent.com/jyotiprakash101/nuvio-badge-kit/main/glyph.json
+https://raw.githubusercontent.com/dhankhar313/nuvio-badge-kit/main/glyph.json
 ```
 
 ## Every badge
